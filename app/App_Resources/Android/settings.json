@@ -1,0 +1,5 @@
+{
+  "appId": "com.kang.cahya.QRCodeScanner",
+  "minSdkVersion": 23,
+  "targetSdkVersion": 30
+}

@@ -1,0 +1,55 @@
+<Page
+    loaded="onLoaded"
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar>
+        <NavigationButton tap="onBackButtonTap" android.systemIcon="ic_menu_back"/>
+        <Label text="Aloha :)"></Label>
+    </ActionBar>
+
+    <ScrollView height="100%" width="100%" orientation="vertical" marginTop="30">
+        <StackLayout marginLeft="20" marginRight="20" paddingBottom="50">
+            <Label text="ABOUT" textWrap="true" fontSize="20" color="#212121" />
+            <Label text="Name" textWrap="true" fontSize="13" color="#BDBDBD" marginTop="10" />
+            <Label text="QR Code Scanner" textWrap="true" fontSize="15" color="#616161" />
+
+            <Label text="Description" textWrap="true" fontSize="13" color="#BDBDBD" marginTop="10" />
+            <Label text="This is a simple apps QR Code scanner, No Ads, free for you from kang cahya." textWrap="true" fontSize="15" color="#616161" />
+            
+            <Label text="Version" textWrap="true" fontSize="13" color="#BDBDBD" marginTop="10" />
+            <Label text="1.1" textWrap="true" fontSize="15" color="#616161" />
+            
+            <Label text="Support Scan" textWrap="true" fontSize="13" color="#BDBDBD" marginTop="10" />
+            <Label text="QR_CODE, PDF_417, CODE_39, CODE_93, CODE_128, DATA_MATRIX, EAN_8, EAN_13, ITF, UPC_A, UPC_E, CODABAR, MAXICODE, RSS_14" textWrap="true" fontSize="15" color="#616161" />
+
+            <Label text="RATE 5 STAR" textWrap="true" fontSize="20" color="#212121" marginTop="20" />
+            <Label text="Don't forget rate 5 star on Playstore If You Like with this Apps :)" textWrap="true" fontSize="15" color="#616161" />
+            <Button text="Rate 5 Star Now on Playstore" fontWeight="bold" tap="ratenow" color="#FFF" backgroundColor="#689F38" borderWidth="0" borderRadius="25" marginTop="10" />
+ 
+            <Label text="SUPPORT" textWrap="true" fontSize="20" color="#212121" marginTop="20" />
+            <GridLayout columns="auto,*" marginTop="10">
+                <Image col="0" src="font://&#xf1ed;" color="#003087" width="30" decodeWidth="100" decodeHeight="100" loadMode="async" class="fab t-36" />
+                <Label col="1" text="aypal" textWrap="true" fontSize="18" color="#009CDE" marginLeft="1" marginTop="10" />
+            </GridLayout>
+            <Label text="Because this apps Free From Ads. If You Want, you can support me by sending a donation via paypal." textWrap="true" fontSize="13" color="#616161" marginTop="10" />
+            <Button text="Donate via PayPal" fontWeight="bold" tap="donate" color="#424242" backgroundColor="#FFC439" borderWidth="0" borderRadius="25" marginTop="10" />
+
+            <Label text="CREDIT" textWrap="true" fontSize="20" color="#212121" marginTop="20" />
+            <Label text="Developer" textWrap="true" fontSize="13" color="#BDBDBD" marginTop="10" />
+            <Label text="kang cahya (kangcahyakeren@gmail.com)" textWrap="true" fontSize="15" color="#616161" />
+
+            <Label text="Font Icon" textWrap="true" fontSize="13" color="#BDBDBD" marginTop="10" />
+            <Label text="Fontawesome.com" textWrap="true" fontSize="15" color="#616161" />
+
+            <Label text="Icon" textWrap="true" fontSize="13" color="#BDBDBD" marginTop="10" />
+            <Label text="Flaticon.com" textWrap="true" fontSize="15" color="#616161" />
+
+            <Label text="Framework" textWrap="true" fontSize="13" color="#BDBDBD" marginTop="10" />
+            <Label text="Nativescript 6.5.3" textWrap="true" fontSize="15" color="#616161" />
+
+            <Label text="Programming Language" textWrap="true" fontSize="13" color="#BDBDBD" marginTop="10" />
+            <Label text="Javascript" textWrap="true" fontSize="15" color="#616161" />
+        </StackLayout>
+    </ScrollView>
+</Page>

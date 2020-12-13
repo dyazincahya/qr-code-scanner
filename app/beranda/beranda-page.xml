@@ -1,0 +1,26 @@
+<Page
+    loaded="onLoaded"
+    navigatingTo="onNavigatingTo"  
+    actionBarHidden="true"
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <GridLayout rows="*,auto,auto,*">
+        <GridLayout rows="*,auto,auto,auto,auto,auto,*" columns="30,*,30" horizontalAlignment="center" row="1" visibility="{{ isBeranda ? 'visible' : 'collapsed' }}">
+            <Image src="font://&#xf029;" color="#424242" width="100" decodeWidth="100" decodeHeight="100" loadMode="async" class="fas t-36" row="1" col="1" />
+            <Button text="Scan QR" tap="scanqr" color="#FFF" backgroundColor="#ff1744" borderWidth="0" borderRadius="25" marginTop="35" marginLeft="10" row="2" col="1" />
+            <Button text="History" tap="history" color="#ff1744" backgroundColor="#FFF" borderWidth="0" borderRadius="25" marginTop="10" marginLeft="10" row="3" col="1" />
+            <Button text="Support Me!" fontWeight="bold" tap="about" color="#424242" backgroundColor="#FFC439" borderWidth="0" borderRadius="25" marginTop="35" paddingLeft="35" paddingRight="35" row="4" col="1" />
+        </GridLayout>
+        <ScrollView height="100%" width="100%" orientation="vertical" marginTop="60" row="2" visibility="{{ isResult ? 'visible' : 'collapsed' }}">
+            <StackLayout marginLeft="20" marginRight="20" marginBottom="70">
+                <Label text="THE RESULT" textWrap="true" fontSize="22" fontWeight="bold" color="#212121" textAlignment="center" marginBottom="15" />
+                <Label text="{{ qrdata }}" textWrap="true" fontSize="15" color="#616161" textAlignment="center" />
+                <Button text="Copy Text" fontWeight="bold" tap="copytext" color="#FFF" backgroundColor="#757575" borderWidth="0" borderRadius="25" marginTop="25" marginLeft="75" marginRight="75" />
+
+                <Button text="RE-SCAN" tap="scanqr" color="#FFF" backgroundColor="#ff1744" borderWidth="0" borderRadius="25" marginTop="55" />
+                <Button text="SEE HISTORY" tap="history" color="#ff1744" backgroundColor="#FFF" borderWidth="0" borderRadius="25" marginTop="7" />
+                <Button text="BACK HOME" tap="home" color="#ff1744" backgroundColor="#FFF" borderWidth="0" borderRadius="25" marginTop="7" />
+            </StackLayout>
+        </ScrollView>
+    </GridLayout>
+</Page>

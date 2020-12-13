@@ -1,0 +1,19 @@
+<Page
+    loaded="onLoaded"
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar>
+        <NavigationButton tap="onBackButtonTap" android.systemIcon="ic_menu_back"/>
+        <Label text="History Detail"></Label>
+    </ActionBar>
+
+    <ScrollView height="100%" width="100%" orientation="vertical" marginTop="30">
+        <StackLayout marginLeft="20" marginRight="20" paddingBottom="70">
+            <Label text="{{ scantime }}" textWrap="true" fontSize="13" color="#BDBDBD" />
+            <Label text="{{ qrdata }}" textWrap="true" fontSize="15" color="#616161" />
+
+            <Button text="Copy Text" fontWeight="bold" tap="copytext" color="#FFF" backgroundColor="#757575" borderWidth="0" borderRadius="25" marginTop="25" marginLeft="75" marginRight="75" />
+        </StackLayout>
+    </ScrollView>
+</Page>

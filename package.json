@@ -1,0 +1,28 @@
+{
+  "nativescript": {
+    "id": "com.kang.cahya.QRCodeScanner",
+    "tns-ios": {
+      "version": "6.5.0"
+    },
+    "tns-android": {
+      "version": "6.5.3"
+    }
+  },
+  "description": "Simple QR Code Scanner by Kang Cahya",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
+  "dependencies": {
+    "@nativescript/theme": "~2.3.0",
+    "@nstudio/nativescript-loading-indicator": "^3.0.4",
+    "@nstudio/nativescript-snackbar": "^1.1.2",
+    "nativescript-barcodescanner": "^3.4.2",
+    "nativescript-clipboard": "^1.2.0",
+    "tns-core-modules": "~6.5.0"
+  },
+  "devDependencies": {
+    "nativescript-dev-webpack": "~1.5.0"
+  },
+  "gitHead": "20a65d338ae8f8911087ab6615b89363f864b07b",
+  "readme": "NativeScript Application",
+  "author": "kang cahya"
+}

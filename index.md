@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/dyazincahya/qr-code-scanner/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<img src="https://github.com/dyazincahya/qr-code-scanner/raw/main/screenshot/playstore/1024x500.png" width="1080">
 
-### Markdown
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K02WIPN)
+# QR Code scanner
+[Android Apps] - This is a simple apps QR Code scanner, No Ads, free for you.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Downloa APK (latest v1.1)
+- [Download APK QR-Code-Scanner (via Github)](https://github.com/dyazincahya/qr-code-scanner/releases/download/v1.2/simple-qr-code-scaner-v1.2.apk)
+- [Download APK QR-Code-Scanner (via Playstore)](https://play.google.com/store/apps/details?id=com.kang.cahya.QRCodeScanner)
 
-```markdown
-Syntax highlighted code block
+### Screenshoot
+<img src="https://github.com/dyazincahya/qr-code-scanner/raw/main/screenshot/1.png" width="200"> <img src="https://github.com/dyazincahya/qr-code-scanner/raw/main/screenshot/2.png" width="200"> <img src="https://github.com/dyazincahya/qr-code-scanner/raw/main/screenshot/3.png" width="200"> <img src="https://github.com/dyazincahya/qr-code-scanner/raw/main/screenshot/4.png" width="200"> <img src="https://github.com/dyazincahya/qr-code-scanner/raw/main/screenshot/5.png" width="200"> <img src="https://github.com/dyazincahya/qr-code-scanner/raw/main/screenshot/6.png" width="200"> <img src="https://github.com/dyazincahya/qr-code-scanner/raw/main/screenshot/7.png" width="200"> <img src="https://github.com/dyazincahya/qr-code-scanner/raw/main/screenshot/8.png" width="200">
 
-# Header 1
-## Header 2
-### Header 3
+### Requirement To Install
+- NodeJS v12.16.1
+- NPM v6.14.1
+- Nativescript v6.5.3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### How to run?
+First install all dependecies in ```package.json``` with run this command
+``` bash
+npm install
+```
+#### andorid
+``` bash
+tns run android
+```
+#### ios
+``` bash
+tns run ios
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### How to build?
+First install all dependecies in ```package.json``` with run this command
+``` bash
+npm install
+```
+#### andorid
+``` bash
+tns build android
+```
+#### ios
+``` bash
+tns build ios
+```
 
-### Jekyll Themes
+### Credit
+- [Local storage array for Nativescript](https://github.com/dyazincahya/local-storage-array-nativescript)
+- [Font Icon - Fontawesome](https://fontawesome.com/)
+- [Icon - Flaticon](https://www.flaticon.com/)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dyazincahya/qr-code-scanner/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Author
+[kang-cahya.com](https://www.kang-cahya.com/)
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### License 
+[Apache License 2.0](https://github.com/dyazincahya/qr-code-scanner/blob/main/LICENSE)

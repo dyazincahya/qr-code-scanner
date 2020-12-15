@@ -7,7 +7,6 @@
 [Android Apps] - This is a simple apps QR Code scanner, No Ads, free for you.
 
 ### Downloa APK (latest v1.2)
-- [Download APK QR-Code-Scanner (via Github)](https://github.com/dyazincahya/qr-code-scanner/releases/download/v1.2/simple-qr-code-scaner-v1.2.apk)
 - [Download APK QR-Code-Scanner (via Playstore)](https://play.google.com/store/apps/details?id=com.kang.cahya.QRCodeScanner)
 
 ### Screenshoot

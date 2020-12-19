@@ -26,9 +26,17 @@ exports.onBackButtonTap = function(){
 };
 
 exports.ratenow = function(){
-    utilsModule.openUrl("https://play.google.com/store/apps/details?id=com.kang.cahya.QRCodeScanner");
+    utilsModule.openUrl("https://play.google.com/store/apps/details?id=com.kang.cahya.SimpleQRCodeScanner");
 };
 
 exports.donate = function(){
     utilsModule.openUrl("https://www.paypal.com/paypalme/dyazincahya");
+};
+
+exports.privacy = function(){
+    utilsModule.openUrl("https://github.com/dyazincahya/pages/wiki/Privacy-Policy---Simple-QR-Scanner");
+};
+
+exports.pro = function(){
+    utilsModule.openUrl("https://play.google.com/store/apps/details?id=com.kang.cahya.SimpleQRCodeScanner");
 };

@@ -20,8 +20,8 @@
             <Label text="Version" textWrap="true" fontSize="13" color="#BDBDBD" marginTop="10" />
             <Label text="1.3" textWrap="true" fontSize="15" color="#616161" />
 
-            <Button text="Privacy Policy" fontWeight="bold" tap="privacy" color="#333" backgroundColor="#FFF" borderWidth="0" borderRadius="25" marginTop="10" />
-            <Button text="Upgrade To Pro Version" fontWeight="bold" tap="pro" color="#333" backgroundColor="#FF8F00" borderWidth="0" borderRadius="25" marginTop="10" />
+            <Button text="Upgrade To Pro Version" fontWeight="bold" tap="pro" color="#424242" backgroundColor="#FFC439" borderWidth="0" borderRadius="25" marginTop="10" />
+            <Button text="Privacy Policy" fontWeight="bold" tap="privacy" color="#424242" backgroundColor="#FFF" borderWidth="0" borderRadius="25" marginTop="10" />
             
             <Label text="Support Scan" textWrap="true" fontSize="13" color="#BDBDBD" marginTop="10" />
             <Label text="QR_CODE, PDF_417, CODE_39, CODE_93, CODE_128, DATA_MATRIX, EAN_8, EAN_13, ITF, UPC_A, UPC_E, CODABAR, MAXICODE, RSS_14" textWrap="true" fontSize="15" color="#616161" />
